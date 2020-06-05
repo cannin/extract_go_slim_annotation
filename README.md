@@ -15,13 +15,16 @@ From: http://geneontology.org/docs/download-go-annotations/
 
 From: https://geneontology.github.io/docs/download-ontology/
 
-* go-basic.obo: http://purl.obolibrary.org/obo/go/go-basic.obo
-* goslim_generic.json: http://current.geneontology.org/ontology/subsets/goslim_generic.json
+* go-basic.obo: http://purl.obolibrary.org/obo/go/go-basic.obo (used by OWLTools for mapping to GOSlim)
+* goslim_generic.json: http://current.geneontology.org/ontology/subsets/goslim_generic.json 
 
 # Code 
-* read_gaf.R: Reads GAF file to data.frame; from: https://github.com/skinnider/flavin
-* parse_go_slim.R: Parse GO Slim in JSON 
+## Main Code
+* parse_go_slim.R: Parse GO Slim terms from JSON (e.g., goslim_generic.json)
 * extract_genes_from_go_gaf.R: Extract GO annotations for a set of gene symbols using evidence types and counts from a GO Slim subset; mapping of GO to GO Slim subset is done with OWLTools 
+
+## Secondary Code
+* read_gaf.R: Reads GAF file to data.frame; from: https://github.com/skinnider/flavin (used by extract_genes_from_go_gaf.R)
 
 ## OWLTools
 
