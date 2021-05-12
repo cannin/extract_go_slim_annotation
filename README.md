@@ -26,7 +26,7 @@ From: https://geneontology.github.io/docs/download-ontology/
 ## Secondary Code
 * read_gaf.R: Reads GAF file to data.frame; from: https://github.com/skinnider/flavin (used by extract_genes_from_go_gaf.R)
 
-## OWLTools (For Generating GO Annotation File (GAF) Format GO Subsets)
+## Generating GO Annotation File (GAF) Format GO Subsets with OWLTools
 
 The Gene Ontology (GO) can be mapped to specific terms using OWLTools https://github.com/owlcollab/owltools/wiki/Map2Slim
 
