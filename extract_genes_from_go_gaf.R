@@ -14,7 +14,8 @@ max_go <- 3
 go_dir <- "."
 gaf_file <- file.path(go_dir, "goa_human.goslim_generic_20200528.gaf")
 
-## Gene Symbols 
+## Gene Symbols
+# NOTE: Replace "symbols" with project specific gene symbol vector
 gene_list <- read_excel("Kurnit CCR_Supplemental Table 3_Meric-Bernstam_with title.xlsx", skip=2)
 symbols <- gene_list$Gene
 
