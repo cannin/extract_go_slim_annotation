@@ -20,7 +20,7 @@ From: https://geneontology.github.io/docs/download-ontology/
 
 # Code 
 ## Main Code
-* parse_go_slim.R: Parse GO Slim terms from JSON (e.g., goslim_generic.json)
+* parse_go_slim.R: Parse GO Slim terms (e.g., GO:0016192) from JSON (e.g., goslim_generic.json); useful for use with OWLTools
 * extract_genes_from_go_gaf.R: Extract GO annotations for a set of gene symbols using evidence types and counts from a GO Slim subset; mapping of GO to GO Slim subset is done with OWLTools 
 
 ## Secondary Code
